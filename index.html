@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>My Tech Goals for the Next 2 Years</h1>
+    </header>
+    <main>
+        <section id="profile" class="card profile-card">
+            <div class="profile-image-container">
+                <img src="./image/img.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+            </div>
+            <div class="profile-details">
+                <h2 data-testid="slackDisplayName">Oyekan Moyosore</h2>
+                <p data-testid="slackEmail">oyekanmoyosore06@gmail.com</p>
+                <div class="time-info">
+                    <p data-testid="currentTimeUTC">
+                        <span class="material-icons">schedule</span>
+                        <span id="utcTime"></span>
+                    </p>
+                    <p data-testid="currentDay">
+                        <span class="material-icons">today</span>
+                        <span id="dayOfWeek"></span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="goals" class="card">
+            <h2>My Goals</h2>
+            <ul>
+                <li>
+                    <span class="material-icons">code</span>
+                    <p>Become proficient in React and Node.js</p>
+                </li>
+                <li>
+                    <span class="material-icons">public</span>
+                    <p>Contribute to open-source projects</p>
+                </li>
+                <li>
+                    <span class="material-icons">person</span>
+                    <p>Build a personal portfolio website</p>
+                </li>
+                <li>
+                    <span class="material-icons">event</span>
+                    <p>Attend tech conferences and networking events</p>
+                </li>
+                <li>
+                    <span class="material-icons">cloud</span>
+                    <p>Learn about cloud computing and DevOps</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+            <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
